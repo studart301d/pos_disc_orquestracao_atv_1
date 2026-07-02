@@ -1,0 +1,28 @@
+# segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# gerados em execução
+logs/
+*.log
+volumes/
+postgres-data/
+airflow-data/
+.airflow/
+tmp/
+temp/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+venv/
+
+# sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
